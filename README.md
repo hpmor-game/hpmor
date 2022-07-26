@@ -7,3 +7,5 @@
 1. Качаем [Rust](https://www.rust-lang.org/)
 2. Для запуска вызываем ```cargo run -F bevy/dynamic heron/debug-2d```. Фича ```bevy/dynamic``` включает быстрые билды, а ```heron/debug-2d``` включает подсветку коллайдеров. Если что-то не работает, попробуйте просто ```cargo run```.
 3. Для релизной сборки вызываем ```cargo build --release```
+
+Так же для пользователей VS Code доступен запуск через хоткей Ctrl + Shift + B.
