@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "command": "cargo",
+      "args": ["run", "-F", "bevy/dynamic", "heron/debug-2d"],
+      "group": {
+        "kind": "build"
+      },
+      "presentation": {
+        "close": true
+      },
+      "label": "start game"
+    }
+  ]
+}
