@@ -12,6 +12,7 @@ opt-level = 3
 [dependencies]
 bevy = { version = "0.7.0", features = ["mp3"] }
 bevy-inspector-egui = "0.11.0"
+bevy_egui = "0.14.0"
 bevy_ecs_ldtk = "0.3.0"
 paste = "1.0.7"
 strum = "0.24.1"
@@ -25,5 +26,8 @@ heron = { version = "3.1.0", features = ["2d"] }
 once_cell = "1.10.0"
 rust-i18n = "0.6.1"
 
-ron = "0.7.1"
+ron = "0.8.0"
 serde = "1.0.139"
+
+dlg = "0.1"
+anyhow = "1.0.62"
